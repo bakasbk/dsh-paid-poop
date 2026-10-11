@@ -1,0 +1,14 @@
+# 依赖与产物
+node_modules/
+*.log
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本机工作区文件（防误提交）
+.dsh-memory/
+paid-poop-plan.md
+settle.test.js

@@ -1,0 +1,25 @@
+{
+  "name": "dsh-paid-poop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "带薪拉屎：悬浮按钮记录每次时长，按月薪与工作制算出本次获利，含每日/每月统计与提醒。Paid poop timer: floating button, per-break earnings from your salary and work schedule, daily/monthly stats and reminders.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": ["lib", "locale", "icon.svg", "cordis.patch.yml", "README.md"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-locale"]
+    }
+  },
+  "engines": { "node": ">=18" }
+}

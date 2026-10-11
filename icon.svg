@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- 原创图标：便便剪影 + 金币（artwork 允许自有配色） -->
+  <circle cx="44" cy="18" r="12" fill="#f5b73d" stroke="#c98a12" stroke-width="2"/>
+  <text x="44" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8a5a00">¥</text>
+  <path d="M22 54
+           C14 54 10 50 10 45
+           C10 41 13 38 17 37.5
+           C14.5 35 15 30 19 28.5
+           C17.5 24.5 21 20.5 25.5 21.5
+           C26.5 17 32 15 36 18
+           C40 15 45.5 17 46.5 21.5
+           C51 20.5 54.5 24.5 53 28.5
+           C57 30 57.5 35 55 37.5
+           C59 38 62 41 62 45
+           C62 50 58 54 50 54
+           Z"
+        fill="#8d5a2b" stroke="#5e3a17" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="30" cy="34" r="1.8" fill="#3c2410"/>
+  <circle cx="42" cy="34" r="1.8" fill="#3c2410"/>
+  <path d="M31 40 Q36 43.5 41 40" fill="none" stroke="#3c2410" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+# dsh-paid-poop 的挂载声明：插入一行 Loader entry。
+# 浏览器半由 dsh-client-modules 依据 package.json 的 dsh.client 声明自动服务，
+# 无需在此声明。
+- insert:
+    - id: paid-poop
+      name: 'dsh-paid-poop'
